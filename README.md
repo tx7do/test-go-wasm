@@ -10,6 +10,12 @@
 scoop install wasmtime
 ```
 
+### MacOS
+
+```shell
+brew install wasmtime
+```
+
 ## Compile
 
 ### Linux
@@ -26,7 +32,7 @@ SET GOOS=wasip1 ;`
 SET GOARCH=wasm ;`
 go build -o main.wasm main.go
 ```
-
+go version
 ## Run
 
 ```shell
